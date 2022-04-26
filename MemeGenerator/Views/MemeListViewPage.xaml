@@ -1,0 +1,28 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+x:Class="MemeGenerator.Views.MemeListViewPage"
+ BackgroundColor="LightGray"
+Title="Top Memes">
+
+<StackLayout HorizontalOptions="Center" VerticalOptions="FillAndExpand" Padding="10">
+
+<ListView x:Name="lstProducts" HorizontalOptions="StartAndExpand" VerticalOptions="FillAndExpand"
+SeparatorColor="LightGray" SeparatorVisibility="Default" HasUnevenRows="True"
+ItemTapped="LstProducts_ItemTapped">
+<ListView.ItemTemplate>
+<DataTemplate>
+<ViewCell>
+<StackLayout Orientation="Vertical" Padding="5" VerticalOptions="FillAndExpand" HorizontalOptions="Center"
+MinimumHeightRequest="100">
+<Image Source="{Binding imageUrl}"  HeightRequest="200"/>
+
+<Label Text="{Binding memeText}" FontSize="20" Margin="2" TextColor="Black" FontAttributes="Bold"/>
+
+</StackLayout>
+</ViewCell>
+</DataTemplate>
+</ListView.ItemTemplate>
+</ListView>
+</StackLayout>
+</ContentPage>

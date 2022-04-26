@@ -1,0 +1,38 @@
+﻿<Properties StartupConfiguration="{0A6EA533-B546-44BA-95A2-B3C6AA437FC3}|Default">
+  <MonoDevelop.Ide.Workbench ActiveDocument="MemeGenerator/Views/MemeListViewPage.xaml.cs">
+    <Files>
+      <File FileName="MemeGenerator/ViewModels/AboutViewModel.cs" Line="1" Column="1" />
+      <File FileName="MemeGenerator/Views/MemeListViewPage.xaml" Line="1" Column="1" />
+      <File FileName="MemeGenerator/Views/MemeListViewPage.xaml.cs" Line="1" Column="1" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="MemeGenerator" expanded="True">
+            <Node name="MemeAppUnitTestProject" expanded="True" />
+            <Node name="MemeGenerator" expanded="True">
+              <Node name="ViewModels" expanded="True" />
+              <Node name="Views" expanded="True">
+                <Node name="LoginPage.xaml" expanded="True" />
+                <Node name="MemeListViewPage.xaml" expanded="True">
+                  <Node name="MemeListViewPage.xaml.cs" selected="True" />
+                </Node>
+              </Node>
+              <Node name="App.xaml" expanded="True" />
+              <Node name="AppShell.xaml" expanded="True" />
+            </Node>
+            <Node name="MemeGenerator.Android" expanded="True" />
+          </Node>
+        </State>
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.ItemProperties.MemeAppUnitTestProject FirstBuild="True" />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.ItemProperties.MemeGenerator.Android PreferredExecutionTarget="Android.Pixel_2_API_30" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MultiItemStartupConfigurations />
+</Properties>
